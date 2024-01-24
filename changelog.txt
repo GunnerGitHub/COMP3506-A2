@@ -1,0 +1,26 @@
+v1.0:
+ - Initial release
+
+v1.1:
+ - Fixed bug on line 267 of test_pathfinding.py where bfs_traversal was called instead of max_traversal (thanks to the student who picked this up)
+ - Fixed the ADT for m_pqueue.py - the signature for insert has had the arguments reversed so priorities are given before the data values
+    New signature: def insert(self, priority: int, data: Any) -> None:
+
+v2.0:
+ - All structures reinstated - stack, extensible list, and linked list. Please see the API, they have updated slightly since A1.
+ - Bugfix in test_pathfinding.py to avoid trying to paint a path that is disconnected (thanks to anon student!)
+ - Bugfix in test_graph_algoriths.py where 4B did not initially generate a random origin vertex for testing (thanks anon student!)
+
+ v2.1:
+  - Typing error on the return of `is_empty` inside ExtensibleList (thanks Rowan!)
+
+v2.2:
+  - Added "insert_fifo" function to the pqueue to simplify handling FIFO queue operations.
+  - Made "Hashable" (m_util.py) extend the Abstract Base Class.
+
+v2.3:
+  - Minor fix in graph edges for LatticeGraph (line 218: edges = [[adj.get_id() ...)
+  - Linted the entire m_graph.py file
+  - Fixed a minor bug in the return stub inside algorithms/pathfinding.py - `visited` should have been `visited_order`
+  - Clarified what can be changed in the m_graph.py header comments.
+  - Clarified return types in airlines.py

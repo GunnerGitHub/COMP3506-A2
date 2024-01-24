@@ -1,0 +1,27 @@
+I, [Gunit Singh (46425704)], hereby declare that this is my own original work,
+and that no part of this assignment has been copied from any other source or person
+except where due acknowledgement is made; no part of the work has been previously
+submitted for assessment in this or any other institution except where explicitly
+acknowledged; I/We have read PPL 3.60.04, UQ’s Student Integrity and Misconduct
+Policy and understand its implications; and I have not used Generative AI to assist
+me with my assignment.
+
+Acknowledgments for the assignment go to:
+For inspiration for hashing:
+GeeksforGeeks. (2023) String hashing using polynomial rolling hash function. 
+Retrieved September 25,  2023 
+from https://www.geeksforgeeks.org/string-hashing-using-polynomial-rolling-hash-function/
+
+For inspiration on implementing heap based priority queue (Course Textbook):
+Goodrich, M. T., Tamassia, R., & Goldwasser, M. H. (2013). 
+Data Structures and Algorithms in Python. John Wiley & Sons.
+
+For inspiration on algorithms such as Dikstra's, DFS and BFS, I used the lecture notes.
+
+For inspiration on Task 3.5, I used the following link:
+GeeksforGeeks. (2023) Bellman Ford Algorithm.
+Retrieved October 10, 2023 
+https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/amp/
+
+For code formatting, I used the following:
+https://codebeautify.org/python-formatter-beautifier
